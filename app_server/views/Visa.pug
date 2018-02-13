@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= 'Visa information by continent'
+    ul
+        each visa in visas
+            li= visa.continent
+

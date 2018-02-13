@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= 'Offer of the month'
+    ul
+        each offer in offers
+            li= offer.off
+

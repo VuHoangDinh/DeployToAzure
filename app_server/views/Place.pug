@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= 'Travel destination'
+    ul
+        each place in places
+            li= place.continent
+
