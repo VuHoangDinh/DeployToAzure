@@ -11,11 +11,11 @@ router
     .post(ctrlApiPlace.addPlace);
 
 router
-    .route('/Place')
+    .route('/Visa')
     .get(ctrlApiVisa.visaList);
     .post(ctrlApiVisa.addVisa);
 
 router
-    .route('/Place')
+    .route('/Offer')
     .get(ctrlApiOffer.offerList);
     .post(ctrlApiOffer.addOffer);

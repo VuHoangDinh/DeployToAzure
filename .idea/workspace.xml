@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec97c80a-034f-4e3e-bee8-ec374364fc67" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app_api/controllers/ctrlApiOffer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_api/controllers/ctrlApiPlace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_api/controllers/ctrlApiVisa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_api/routes/indexApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/models/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/models/appSchemas.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/appSchemas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_server/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/models/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_api/routes/indexApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_api/routes/indexApi.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,16 +30,25 @@
         <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctrlApiPlace.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ctrlApiPlace.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_api/controllers/ctrlApiPlace.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -75,6 +76,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_api/models/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="3" lean-forward="true" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -97,7 +107,6 @@
         <option value="$PROJECT_DIR$/routes/name.js" />
         <option value="$PROJECT_DIR$/routes/Hoang.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/ctrlPlace.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/ctrlOffer.js" />
         <option value="$PROJECT_DIR$/app_server/controllers/ctrlVisa.js" />
@@ -111,10 +120,11 @@
         <option value="$PROJECT_DIR$/app_server/controllers/addtestDocument.js" />
         <option value="$PROJECT_DIR$/app_api/models/app.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/ctrlApiVisa.js" />
-        <option value="$PROJECT_DIR$/app_api/routes/indexApi.js" />
         <option value="$PROJECT_DIR$/app_api/models/appSchemas.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/ctrlApiOffer.js" />
         <option value="$PROJECT_DIR$/app_api/controllers/ctrlApiPlace.js" />
+        <option value="$PROJECT_DIR$/app_api/routes/indexApi.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -268,15 +278,15 @@
       <workItem from="1521057076574" duration="4339000" />
       <workItem from="1522322820925" duration="2594000" />
       <workItem from="1522336981860" duration="601000" />
-      <workItem from="1522865368901" duration="3682000" />
+      <workItem from="1522865368901" duration="4572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30361000" />
+    <option name="totallyTimeSpent" value="31251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="17" width="1250" height="1047" extended-state="0" />
+    <frame x="484" y="34" width="1250" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.169967" />
@@ -505,27 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="52" lean-forward="true" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/models/appSchemas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_api/controllers/ctrlApiOffer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -557,17 +546,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_api/controllers/ctrlApiPlace.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/routes/indexApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/models/appSchemas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_api/models/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="3" lean-forward="true" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
