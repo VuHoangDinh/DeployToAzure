@@ -13,4 +13,6 @@ router.get('/Offer', ctrlOffer.offerlist);
 router.get('/Place', ctrlPlace.placelist);
 router.get('/Visa', ctrlVisa.visalist);
 
+
+
 module.exports = router;

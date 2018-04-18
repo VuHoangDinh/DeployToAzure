@@ -14,7 +14,7 @@ const offerList = function (req,res) {
 };
 
 const addOffer = function (req,res) {
-    offereModel.create(req.body, function(err, newOffer){
+    offerModel.create(req.body, function(err, newOffer){
         if(err){
             res.status(400).json(err);
         }
