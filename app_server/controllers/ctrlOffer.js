@@ -1,14 +1,33 @@
-const offerlist = function(req, res){
-    res.render('offer',{
-        offers:
-            [
-                {off:'Offer 1'},
-                {off:'Offer 2'},
-                {off:'Offer 3'},
-                {off:'Offer 4'},
-                {off:'Offer 5'},
+const request = require('request');
+const apiURL = require('./apiURLs');
 
-            ]});
+const offerlist = function(req, res){
+    const path = '/api/Offer';
+    const requestOptions = {
+        url : apiURL.server + path,
+        method : 'GET',
+        json : {},
+        qs : {}
+    };
+
+    request(
+        requestOptions,
+        function (err, response, body){
+            if (err){
+                res.render('error', {message: err.message});
+            } else if (response.statusCode !== 200){
+                res.render('error', {message: 'Error accessing API: ' +
+                    response.statusMessage +
+                    ' ('+ response.statusCode + ')' });
+            } else if (!(body instanceof Array)) {
+                res.render('error', {message: 'Unexpected response data'});
+            } else if (!body.length){
+                res.render('error', {message: 'No documents in collection'});
+            } else {
+                res.render('offer', {offers: body});
+            }
+        }
+    );
 };
 module.exports = {
     offerlist

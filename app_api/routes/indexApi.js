@@ -10,3 +10,14 @@ router
     .get(ctrlApiPlace.placeList)
     .post(ctrlApiPlace.addPlace);
 
+router
+    .route('/Visa')
+    .get(ctrlApiVisa.visaList)
+    .post(ctrlApiVisa.addVisa);
+
+router
+    .route('/Offer')
+    .get(ctrlApiOffer.offerList)
+    .post(ctrlApiOffer.addOffer);
+
+module.exports = router;
