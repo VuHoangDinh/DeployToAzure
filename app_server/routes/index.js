@@ -13,6 +13,9 @@ router.get('/Offer', ctrlOffer.offerlist);
 router.get('/Place', ctrlPlace.placelist);
 router.get('/Visa', ctrlVisa.visalist);
 
-
+router
+    .route('/Place/add')
+    .get(ctrlPlace.showForm)
+    .post(ctrlPlace.addData);
 
 module.exports = router;

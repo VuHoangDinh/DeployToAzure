@@ -1,0 +1,14 @@
+extend layout
+
+block content
+    .row
+        h4 New place to visit
+    form(action ="", method ="post")
+        .form-group.row
+            label Place
+                input.form-control(name="place")
+        .form-group.row
+            label Continent
+                input.form-control(name="continent")
+        .form-group.row
+            button.btn-primary Add
